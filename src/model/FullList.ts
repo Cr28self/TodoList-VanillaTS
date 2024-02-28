@@ -9,7 +9,7 @@ interface List {
   removeItem(id: string): void;
 }
 
-// singleton -> there will be only one instance
+// singleton(싱글톤) -> there will be only one instance
 // --> 클래스의 인스턴스가 오직 하나만 생성되어 전역에서 접근 가능하도록 하는 패턴
 // --> 전역변수를 사용하지 않고 하나의 인스턴스만 생성하여 어디서든지 이 인스턴스에 접근하도록
 export default class FullList implements List {
